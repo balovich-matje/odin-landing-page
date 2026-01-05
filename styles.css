@@ -5,6 +5,8 @@
 
 img {
     object-fit: cover;
+    height: 200px;
+    width: 200px;
 }
 
 a {
@@ -96,4 +98,42 @@ body {
 .window-one-image {
     width: 600px;
     height: 250px;
+}
+
+.window-two {
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.window-two-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.window-two-image {
+    border-radius: 20px;
+    border: 6px solid #3882F6;
+}
+
+.window-two-cards {
+    display: flex;
+    gap: 48px;
+}
+
+.window-two-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    gap: 8px;
+}
+
+.window-two-text {
+    opacity: 75%;
 }
